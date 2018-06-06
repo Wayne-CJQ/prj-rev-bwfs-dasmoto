@@ -1,0 +1,38 @@
+/*stylish the very first heading on the top of the page*/
+.title{
+
+  font-family: "Helvetica";
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+/*insert the background image for heading area*/
+.heading {
+  background-image: url("../../resources/images/wall.jpeg");
+}
+/*set up the common features of all h2 tags*/
+h2{
+  font-family: "Helvetica";
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+/*set up the various h2 tags*/
+.brush h2{
+  background-color: mediumspringgreen;
+}
+
+.frame h2{
+  background-color: lightcoral;
+}
+
+.paint h2{
+  background-color: skyblue;
+}
+/*set up the price with font and color*/
+.price{
+  font-family: "Helvetica";
+  font-weight: bold;
+  color: blue;
+}
